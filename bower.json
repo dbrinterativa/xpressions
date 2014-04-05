@@ -5,7 +5,7 @@
     "DBR.ag"
   ],
   "description": "Pacote de implementação do xpressions, acões sociais e monitoramento",
-  "main": "js/xpressions.js",
+  "main": "dist/js/xpressions.js",
   "keywords": [
     "xpressions",
     "bos",
