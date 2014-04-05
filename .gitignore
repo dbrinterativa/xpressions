@@ -6,3 +6,5 @@
 *.out
 *.sass-cache
 config.codekit
+min
+node_modules
