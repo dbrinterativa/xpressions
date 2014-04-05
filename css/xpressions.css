@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'FontAwesomeXp';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.0.3");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fontawesome, .xp-box .xp-btn.xp-loading .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-login .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-like .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-share-url .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-share-product .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-want .loading, .xp-box .xp-btn i, .xp-box.xp-theme-default .xp-btn-login i, .xp-box.xp-theme-default .xp-btn-like i, .xp-box.xp-theme-default .xp-btn-share-url i, .xp-box.xp-theme-default .xp-btn-share-product i, .xp-box.xp-theme-default .xp-btn-want i {
+  font-family: FontAwesomeXp;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.xp-box {
+  font-size: 14px; }
+  .xp-box .xp-btn, .xp-box.xp-theme-default .xp-btn-login, .xp-box.xp-theme-default .xp-btn-like, .xp-box.xp-theme-default .xp-btn-share-url, .xp-box.xp-theme-default .xp-btn-share-product, .xp-box.xp-theme-default .xp-btn-want {
+    background: #e2e2e2;
+    color: black;
+    display: inline-block;
+    float: left;
+    font-size: 0.95em;
+    line-height: 2.0em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 10px 0px; }
+    .xp-box .xp-btn:hover, .xp-box.xp-theme-default .xp-btn-login:hover, .xp-box.xp-theme-default .xp-btn-like:hover, .xp-box.xp-theme-default .xp-btn-share-url:hover, .xp-box.xp-theme-default .xp-btn-share-product:hover, .xp-box.xp-theme-default .xp-btn-want:hover {
+      background: #c8c8c8; }
+      .xp-box .xp-btn:hover i, .xp-box.xp-theme-default .xp-btn-login:hover i, .xp-box.xp-theme-default .xp-btn-like:hover i, .xp-box.xp-theme-default .xp-btn-share-url:hover i, .xp-box.xp-theme-default .xp-btn-share-product:hover i, .xp-box.xp-theme-default .xp-btn-want:hover i {
+        background: #e2e2e2; }
+    .xp-box .xp-btn.xp-active, .xp-box.xp-theme-default .xp-active.xp-btn-login, .xp-box.xp-theme-default .xp-active.xp-btn-like, .xp-box.xp-theme-default .xp-active.xp-btn-share-url, .xp-box.xp-theme-default .xp-active.xp-btn-share-product, .xp-box.xp-theme-default .xp-active.xp-btn-want {
+      background: #c8c8c8; }
+      .xp-box .xp-btn.xp-active i, .xp-box.xp-theme-default .xp-active.xp-btn-login i, .xp-box.xp-theme-default .xp-active.xp-btn-like i, .xp-box.xp-theme-default .xp-active.xp-btn-share-url i, .xp-box.xp-theme-default .xp-active.xp-btn-share-product i, .xp-box.xp-theme-default .xp-active.xp-btn-want i {
+        background: #e2e2e2; }
+    .xp-box .xp-btn.xp-loading, .xp-box.xp-theme-default .xp-loading.xp-btn-login, .xp-box.xp-theme-default .xp-loading.xp-btn-like, .xp-box.xp-theme-default .xp-loading.xp-btn-share-url, .xp-box.xp-theme-default .xp-loading.xp-btn-share-product, .xp-box.xp-theme-default .xp-loading.xp-btn-want {
+      position: relative; }
+      .xp-box .xp-btn.xp-loading .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-login .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-like .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-share-url .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-share-product .loading, .xp-box.xp-theme-default .xp-loading.xp-btn-want .loading {
+        -webkit-animation: spin 2s infinite linear;
+        animation: spin 2s infinite linear;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-size: 1.3em;
+        color: #3e3e3e; }
+        .xp-box .xp-btn.xp-loading .loading:before, .xp-box.xp-theme-default .xp-loading.xp-btn-login .loading:before, .xp-box.xp-theme-default .xp-loading.xp-btn-like .loading:before, .xp-box.xp-theme-default .xp-loading.xp-btn-share-url .loading:before, .xp-box.xp-theme-default .xp-loading.xp-btn-share-product .loading:before, .xp-box.xp-theme-default .xp-loading.xp-btn-want .loading:before {
+          content: "\f110" !important; }
+    .xp-box .xp-btn.xp-response, .xp-box.xp-theme-default .xp-response.xp-btn-login, .xp-box.xp-theme-default .xp-response.xp-btn-like, .xp-box.xp-theme-default .xp-response.xp-btn-share-url, .xp-box.xp-theme-default .xp-response.xp-btn-share-product, .xp-box.xp-theme-default .xp-response.xp-btn-want {
+      position: relative; }
+      .xp-box .xp-btn.xp-response .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-success, .xp-box .xp-btn.xp-response .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-error {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        font-size: 0.7em;
+        width: auto;
+        height: 28px;
+        text-align: left;
+        float: left;
+        overflow: hidden;
+        text-transform: lowercase; }
+        .xp-box .xp-btn.xp-response .xp-response-success:before, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-success:before, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-success:before, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-success:before, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-success:before, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-success:before, .xp-box .xp-btn.xp-response .xp-response-error:before, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-error:before, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-error:before, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-error:before, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-error:before, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-error:before {
+          content: "big smile :)"; }
+      .xp-box .xp-btn.xp-response .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-success, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-success {
+        color: green; }
+      .xp-box .xp-btn.xp-response .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-login .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-like .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-share-url .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-share-product .xp-response-error, .xp-box.xp-theme-default .xp-response.xp-btn-want .xp-response-error {
+        color: red; }
+    .xp-box .xp-btn.xp-disabled, .xp-box.xp-theme-default .xp-disabled.xp-btn-login, .xp-box.xp-theme-default .xp-disabled.xp-btn-like, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-url, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-product, .xp-box.xp-theme-default .xp-disabled.xp-btn-want {
+      cursor: none;
+      background: #e3e3e3; }
+      .xp-box .xp-btn.xp-disabled i, .xp-box.xp-theme-default .xp-disabled.xp-btn-login i, .xp-box.xp-theme-default .xp-disabled.xp-btn-like i, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-url i, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-product i, .xp-box.xp-theme-default .xp-disabled.xp-btn-want i {
+        background: #c7c9c8; }
+      .xp-box .xp-btn.xp-disabled:hover, .xp-box.xp-theme-default .xp-disabled.xp-btn-login:hover, .xp-box.xp-theme-default .xp-disabled.xp-btn-like:hover, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-url:hover, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-product:hover, .xp-box.xp-theme-default .xp-disabled.xp-btn-want:hover {
+        background: #e3e3e3; }
+        .xp-box .xp-btn.xp-disabled:hover i, .xp-box.xp-theme-default .xp-disabled.xp-btn-login:hover i, .xp-box.xp-theme-default .xp-disabled.xp-btn-like:hover i, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-url:hover i, .xp-box.xp-theme-default .xp-disabled.xp-btn-share-product:hover i, .xp-box.xp-theme-default .xp-disabled.xp-btn-want:hover i {
+          color: white;
+          background: #c7c9c8; }
+    .xp-box .xp-btn i, .xp-box.xp-theme-default .xp-btn-login i, .xp-box.xp-theme-default .xp-btn-like i, .xp-box.xp-theme-default .xp-btn-share-url i, .xp-box.xp-theme-default .xp-btn-share-product i, .xp-box.xp-theme-default .xp-btn-want i {
+      background: #c8c8c8;
+      color: white;
+      float: left;
+      font-size: 1.33em;
+      padding: 5px;
+      margin-right: 10px; }
+  .xp-box.xp-theme-default ul {
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px; }
+    .xp-box.xp-theme-default ul li {
+      float: left;
+      margin-right: 10px; }
+  .xp-box.xp-theme-default .xp-btn-login:hover i {
+    color: #3b5998; }
+  .xp-box.xp-theme-default .xp-btn-login i {
+    padding: 5px 12px;
+    background: #3b5998;
+    color: white; }
+    .xp-box.xp-theme-default .xp-btn-login i:before {
+      content: "\f09a"; }
+  .xp-box.xp-theme-default .xp-btn-login.xp-active i:before {
+    content: "\f09a"; }
+  .xp-box.xp-theme-default .xp-btn-like:hover i, .xp-box.xp-theme-default .xp-btn-like.xp-active i {
+    color: #d04a4b; }
+  .xp-box.xp-theme-default .xp-btn-like i {
+    background: #d04a4b; }
+    .xp-box.xp-theme-default .xp-btn-like i:before {
+      content: "\f004"; }
+  .xp-box.xp-theme-default .xp-btn-share-url:hover i, .xp-box.xp-theme-default .xp-btn-share-url.xp-active i {
+    color: #ff6600; }
+  .xp-box.xp-theme-default .xp-btn-share-url i {
+    background: #ff6600; }
+  .xp-box.xp-theme-default .xp-btn-share-url i:before {
+    content: "\f0a1"; }
+  .xp-box.xp-theme-default .xp-btn-share-url.xp-active i:before {
+    content: "\f0a1"; }
+  .xp-box.xp-theme-default .xp-btn-share-product:hover i {
+    color: #d203ae; }
+  .xp-box.xp-theme-default .xp-btn-share-product i {
+    background: #d203ae; }
+  .xp-box.xp-theme-default .xp-btn-share-product i:before {
+    content: "\f07a"; }
+  .xp-box.xp-theme-default .xp-btn-share-product.xp-active i:before {
+    content: "\f07a"; }
+  .xp-box.xp-theme-default .xp-btn-want:hover i {
+    color: #e8e700; }
+  .xp-box.xp-theme-default .xp-btn-want i {
+    background: #e8e700; }
+  .xp-box.xp-theme-default .xp-btn-want i:before {
+    content: "\f005"; }
+  .xp-box.xp-theme-default .xp-btn-want.xp-active i:before {
+    content: "\f005"; }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(359deg); } }
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg); }
+
+  100% {
+    -ms-transform: rotate(359deg); } }
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg); } }

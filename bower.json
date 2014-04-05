@@ -1,0 +1,29 @@
+{
+  "name": "Xpressions",
+  "version": "0.1.0",
+  "authors": [
+    "DBR.ag"
+  ],
+  "description": "Pacote de implementação do xpressions, acões sociais e monitoramento",
+  "main": "js/xpressions.js",
+  "keywords": [
+    "xpressions",
+    "bos",
+    "sdk",
+    "social",
+    "facebook",
+    "buyonsocial",
+    "xpbos",
+    "dbr"
+  ],
+  "license": "MIT",
+  "homepage": "http:/buyonsocial.com/xpressions",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,233 @@
+//font for icons
+@font-face{font-family:'FontAwesomeXp';src:url('../fonts/fontawesome-webfont.eot?v=4.0.3');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+$primary-bg-color: #32abf0;
+$secondary-bg-color: #268df2;
+
+$primary-bg-color: #e2e2e2;
+$secondary-bg-color: #c8c8c8;
+
+$primary-color: white;
+$secondary-color: black;
+$success-scolor: green;
+$error-scolor: red;
+
+$primary-bg-disabled-color: #e3e3e3;
+$secondary-bg-disabled-color: #c7c9c8;
+
+$font-size: 0.95em;
+
+
+// colors
+$login-base-color: #3B5998;
+$like-base-color: #d04a4b;
+$share-base-color: #ff6600;
+$share-product-base-color: #d203ae;
+
+.fontawesome{
+	font-family: FontAwesomeXp;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.xp-box {
+	//default's
+	font-size:14px;
+	.xp-btn{		
+		background: $primary-bg-color;
+		color: $secondary-color;
+		display: inline-block;
+		float: left;
+		font-size: $font-size;
+		line-height: 2.0em;		
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-right: 10px;
+		font-family: "Open Sans";
+		font-weight: 400;
+		letter-spacing: 0.04em;
+		margin: 10px 0px;
+		&:hover{
+			background: $secondary-bg-color;
+			i{ background: $primary-bg-color; }
+		}
+		&.xp-active{
+			background: $secondary-bg-color;
+			i{ background: $primary-bg-color; }
+		}
+		&.xp-loading{
+			position:relative;
+			.loading{
+				@extend .fontawesome;
+				-webkit-animation: spin 2s infinite linear;
+				animation: spin 2s infinite linear;
+				position:absolute;
+				top:-5px;
+				right: -5px;
+				font-size: 1.3em;
+				color: #3e3e3e;
+				&:before{
+					content: "\f110" !important;
+				}
+			}
+		}
+		&.xp-response{
+			position:relative;
+			.xp-response-success , .xp-response-error{
+				position:absolute;
+				top: 30px;
+				left: 0px;
+				font-size: 0.7em;
+				width: auto;
+				height: 28px;
+				text-align: left;
+				float: left;
+				overflow: hidden;
+				text-transform: lowercase;
+				&:before{
+					content: 'big smile :)'
+				}
+			}
+			.xp-response-success{ color: $success-scolor; }
+			.xp-response-error{ color: $error-scolor; }
+		}
+		&.xp-disabled{
+			// opacity: 0.6;
+			cursor: none;
+			background: $primary-bg-disabled-color;
+			i{ background: $secondary-bg-disabled-color;}
+			&:hover{
+				background: $primary-bg-disabled-color;
+				i{
+					color: $primary-color;
+					background: $secondary-bg-disabled-color;
+				}
+			}
+		}
+		i{
+			@extend .fontawesome;
+			background: $secondary-bg-color;
+			color: $primary-color;
+			float: left;
+			font-size: ($font-size * 1.4);
+			padding: 5px;
+			margin-right: 10px;
+		}
+	}
+	// default theme
+	&.xp-theme-default{
+		ul{
+			list-style:none;
+			width: 100%;
+			float: left;
+			margin:0px;
+			padding:0px;
+			li{
+				float: left;
+				margin-right: 10px;
+			}			
+		}
+		.xp-btn-login{
+			@extend .xp-btn;
+			&:hover i{ color: $login-base-color; }
+			i{ 
+				padding: 5px 12px;
+				background: $login-base-color;
+				color: white;
+				&:before{ content: "\f09a"; }
+			}
+			&.xp-active{
+				i:before{
+					content: "\f09a";
+				}
+			}
+		}
+		.xp-btn-like{
+			@extend .xp-btn;
+			&:hover i,&.xp-active i{ color: $like-base-color; }
+			i{ 
+				background: $like-base-color; 
+				&:before{ content: "\f004"; }
+			}
+		}
+		.xp-btn-share-url{
+			@extend .xp-btn;
+			&:hover i,&.xp-active i{ color: $share-base-color; }
+			i{ background: $share-base-color; }
+			// i:before{ content: "\f08a"; }
+			i:before{ content: "\f0a1"; }
+			&.xp-active{
+				i:before{
+					content: "\f0a1";
+				}
+			}
+		}
+		.xp-btn-share-product{
+			@extend .xp-btn;
+			&:hover i{ color: $share-product-base-color; }
+			i{ background: $share-product-base-color; }
+			// i:before{ content: "\f08a"; }
+			i:before{ content: "\f07a"; }
+			&.xp-active{
+				i:before{
+					content: "\f07a";
+				}
+			}
+		}
+		.xp-btn-want{
+			@extend .xp-btn;
+			&:hover i{ color: #e8e700; }
+			i{ background: #e8e700; }
+			// i:before{ content: "\f08a"; }
+			i:before{ content: "\f005"; }
+			&.xp-active{
+				i:before{
+					content: "\f005";
+				}
+			}
+		}
+	}
+}
+@-moz-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(359deg);
+	}
+}
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+	}
+}
+@-o-keyframes spin {
+	0% {
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform: rotate(359deg);
+	}
+}
+@-ms-keyframes spin {
+	0% {
+		-ms-transform: rotate(0deg);
+	}
+	100% {
+		-ms-transform: rotate(359deg);
+	}
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
