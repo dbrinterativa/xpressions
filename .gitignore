@@ -8,3 +8,4 @@
 config.codekit
 min
 node_modules
+.codekit-cache
